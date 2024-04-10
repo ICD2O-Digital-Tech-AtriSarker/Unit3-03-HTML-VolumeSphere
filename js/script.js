@@ -1,5 +1,5 @@
 "use strict";
-// Script for Volume of a Right-Angled Triangular Pyramid
+// Script for Volume of a Sphere
 
 // Elements
 // Inputs
@@ -14,9 +14,9 @@ function Calculate() {
 
   // Get Radius Input
   let radius = Number(radiusInput.value);
-  
+
   // Calculate Volume of the Sphere
-  let volume = (4/3) * Math.PI * ( radius ** 3 )
+  let volume = (4 / 3) * Math.PI * (radius ** 3)
 
   // Round up to 2 decimal places, if needed
   if (volume % 1 != 0) {
